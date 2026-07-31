@@ -16,5 +16,5 @@ func main() {
 
 	fmt.Println(fibbonachi(4)) // 3
 	fmt.Println(fibbonachi(5)) // 5
-	fmt.Println(fibbonachi(6)) // 8
+	fmt.Println(fibbonachi(5)) // 8
 }
