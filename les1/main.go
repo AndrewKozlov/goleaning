@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/fatih/color"
+)
 
 func main() {
 	mass := []int{7, 12, 4, 6, 78, 2, 52, 1, 2, 5}
@@ -12,6 +16,7 @@ func main() {
 	*/
 	fmt.Println("before:", mass)
 	fmt.Println("after:", qsort(mass))
+	color.Cyan("aboba")
 }
 
 func sum(n int) int {
