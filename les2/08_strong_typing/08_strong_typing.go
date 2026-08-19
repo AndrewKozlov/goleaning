@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	price := 4.50
+	price := 4.50 //float64
 
-	quntity := 15
+	quntity := 15 //int
 
-	total := price * float64(quntity)
+	total := price * float64(quntity) //float64=float64*float64
 
-	fmt.Println(total)
+	fmt.Printf("%.2f", total)
 }
